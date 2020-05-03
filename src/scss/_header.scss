@@ -1,0 +1,47 @@
+.ILD-header{
+    &-logo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 8.125rem;
+        padding-top: 2.1875rem;
+        padding-bottom: 4.1875rem;
+
+        &-html{
+            text-align: right;
+        }
+        &-sass{
+            text-align: center;
+        }
+        &-js{
+            text-align: left;
+        }
+    }
+
+
+    &-textcenter{
+        font-size: 80px;
+        font-weight: bold;
+        text-align: center;
+
+        &-small{
+            display: block;
+            font-weight: 300; 
+            font-size: 13px;
+            padding-top:42px ;
+
+            &-final{
+                display:block;
+            }
+        }
+    }
+
+    &-button{
+        text-align: center;
+        padding-top: 150px;
+        font-size: 50px;        
+    }
+
+
+
+
+}

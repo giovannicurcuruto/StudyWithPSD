@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: $color_main_background;
+    color: $color_main_font;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 0 5%;
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+    filter: invert(50%);
+}
+
+a:active{
+    text-decoration: none;
+    color: invert(80%);
+}

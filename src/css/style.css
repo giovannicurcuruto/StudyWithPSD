@@ -121,6 +121,43 @@ a:active {
   text-align: center;
   padding-top: 150px;
   font-size: 50px;
+  padding-bottom: 85px;
+}
+
+.ILD-description {
+  background-image: url("../assets/background2.jpg");
+  color: #464b4f;
+}
+.ILD-description-aboutMe {
+  text-align: center;
+  padding-top: 121px;
+  font-size: 25px;
+}
+.ILD-description-aboutMe-text {
+  display: block;
+}
+.ILD-description-aboutMe-text:last-child {
+  padding-top: 55px;
+}
+.ILD-description-title {
+  text-align: center;
+  font-size: 4.6875rem;
+  font-weight: bold;
+  padding-top: 110px;
+  padding-bottom: 90px;
+}
+.ILD-description-3columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 120px;
+  font-size: 25px;
+  text-justify: auto;
+}
+.ILD-description-3columns-title {
+  padding-bottom: 20px;
+}
+.ILD-description-3columns-text {
+  font-weight: lighter;
 }
 
 /*# sourceMappingURL=style.css.map */

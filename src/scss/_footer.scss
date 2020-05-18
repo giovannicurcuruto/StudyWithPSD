@@ -1,0 +1,30 @@
+.ILD-footer{
+    background-image:  url("/src/assets/background-footer.png");
+    color: $color_footer-font;
+    height: 350px;
+
+    &-logos{
+        width: 300px;
+        padding-top: 80px;
+        margin: 0 auto;
+        display: grid;
+        text-align: center;
+        justify-items: center;
+        font-size: 55px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
+    &-text{
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 30px;
+
+        & span{
+            display: block;
+            padding-bottom: 30px;
+        }
+
+    }
+
+}

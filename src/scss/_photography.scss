@@ -1,0 +1,74 @@
+.ILD-photography{
+    background-image: url('../assets/background2.jpg');
+    color: $color_secondary-font;
+
+    &-title{
+        padding-top: 125px;
+        padding-bottom: 55px;
+        display: block;
+        font-weight: bold;
+        font-size: 4.6875rem;
+        
+    }
+
+    &-text{
+        width: 770px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
+    &-photos{
+        display: grid;
+        padding-top: 55px;
+        padding-bottom: 85px;
+        justify-content: center;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 300px 300px; 
+        column-gap: 10px;
+        row-gap: 15px;
+    }
+
+    &-Instagram11{
+        background-image: url("/src/assets/photo1.PNG");
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+    }
+
+    &-Instagram12{
+        background-image: url("/src/assets/photo2.PNG");
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+    }
+    &-Instagram13{
+        background-image: url("/src/assets/photo3.PNG");
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+    }
+
+    &-Instagram21{
+        background-image: url("/src/assets/photo4.PNG");
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+    }
+
+    &-Instagram22{
+        background-image: url("/src/assets/photo5.PNG");
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+    }
+
+    &-Instagram23{
+        background-image: url("/src/assets/photo6.PNG");
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+    }
+
+    &-button{
+        display: grid;
+        justify-content: center;
+        padding-bottom: 85px;
+        
+    }
+}

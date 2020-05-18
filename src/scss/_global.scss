@@ -32,3 +32,49 @@ a:active{
     text-decoration: none;
     color: invert(80%);
 }
+
+.ILD-button-default{
+
+    background: $color_button_primary;
+    color: $color_button_font;
+    border: none;
+    border-radius: 10px;
+    width: 210px;
+    height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+
+    & span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    & span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    &:hover span{
+        padding-right: 25px;
+    }
+
+    &:hover span:after{
+        opacity: 1;
+        right: 0;
+    }
+
+}
+

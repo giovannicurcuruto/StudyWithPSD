@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -87,6 +88,44 @@ a:active {
   color: invert(80%);
 }
 
+.ILD-button-default {
+  background: #7b77c9;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  width: 210px;
+  height: 60px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.ILD-button-default span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.ILD-button-default span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.ILD-button-default:hover span {
+  padding-right: 25px;
+}
+.ILD-button-default:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .ILD-header-logo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -158,6 +197,123 @@ a:active {
 }
 .ILD-description-3columns-text {
   font-weight: lighter;
+}
+
+.ILD-photography {
+  background-image: url("../assets/background2.jpg");
+  color: #464b4f;
+}
+.ILD-photography-title {
+  padding-top: 125px;
+  padding-bottom: 55px;
+  display: block;
+  font-weight: bold;
+  font-size: 4.6875rem;
+}
+.ILD-photography-text {
+  width: 770px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+}
+.ILD-photography-photos {
+  display: grid;
+  padding-top: 55px;
+  padding-bottom: 85px;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+.ILD-photography-Instagram11 {
+  background-image: url("/src/assets/photo1.PNG");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+.ILD-photography-Instagram12 {
+  background-image: url("/src/assets/photo2.PNG");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+.ILD-photography-Instagram13 {
+  background-image: url("/src/assets/photo3.PNG");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+.ILD-photography-Instagram21 {
+  background-image: url("/src/assets/photo4.PNG");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+.ILD-photography-Instagram22 {
+  background-image: url("/src/assets/photo5.PNG");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+.ILD-photography-Instagram23 {
+  background-image: url("/src/assets/photo6.PNG");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+.ILD-photography-button {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 85px;
+}
+
+.ILD-contact {
+  display: grid;
+  text-align: center;
+  justify-items: center;
+  padding-top: 170px;
+  padding-bottom: 150px;
+}
+.ILD-contact-infinity {
+  font-size: 120px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+.ILD-contact-text {
+  padding-bottom: 40px;
+}
+.ILD-contact-text-Lorem {
+  display: block;
+  padding-bottom: 10px;
+}
+.ILD-contact-email input {
+  color: gainsboro;
+  width: 300px;
+  padding-top: 17px;
+  padding-bottom: 18px;
+  padding-left: 12px;
+  border-radius: 10px;
+}
+
+.ILD-footer {
+  background-image: url("/src/assets/background-footer.png");
+  color: #7c7c7c;
+  height: 350px;
+}
+.ILD-footer-logos {
+  width: 300px;
+  padding-top: 80px;
+  margin: 0 auto;
+  display: grid;
+  text-align: center;
+  justify-items: center;
+  font-size: 55px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.ILD-footer-text {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.ILD-footer-text span {
+  display: block;
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

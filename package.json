@@ -1,0 +1,34 @@
+{
+  "name": "psd_code_free_psd1",
+  "version": "1.0.0",
+  "description": "Project Project for study for personal reinforcement.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel live-server scss",
+    "live-server": "npx parcel index.html",
+    "scss": "sass --watch src/scss/index.scss src/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovannicurcuruto/StudyWithPSD.git"
+  },
+  "keywords": [
+    "\"HTML\"",
+    "\"CSS\"",
+    "\"SASS\"",
+    "\"JS\"",
+    "\"Jquery\""
+  ],
+  "author": "Giovanni Salvatore de Almeida Curcuruto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giovannicurcuruto/StudyWithPSD/issues"
+  },
+  "homepage": "https://github.com/giovannicurcuruto/StudyWithPSD#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "parcel": "^1.12.4",
+    "sass": "^1.26.5"
+  }
+}
